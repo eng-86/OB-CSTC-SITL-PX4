@@ -6,8 +6,7 @@ Observer-Based Consensus Super-Twisting Control Algorithm (OB-CSTC)  for control
 ## PX4 Configuration:
 1. Follows the main [PX4](https://docs.px4.io/main/en/sim_gazebo_classic/multi_vehicle_simulation.html) to manage your multi-vehicle toolchain.
 2. Replace multi_uav_mavros_sitl.launch in your main PX4 reposatoty to be able to launch 4 IRIS quadcopters.
-3. Replace mixer_module.cpp and mixer_module.hpp in mixer_module folder in the firmware to be able to inject faults.
-4. Build your PX4 code.
+3. Build your PX4 code.
 
 ## ROS Configuration
 1. Create a new ROS packge **vehicle_data**
